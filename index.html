@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound Warden - Support</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0f0f13; color: #e0e0e8; min-height: 100vh; }
+  .hero { background: linear-gradient(135deg, #1a0a2e 0%, #0f0f13 60%); padding: 72px 24px 56px; text-align: center; border-bottom: 1px solid #2a2a3a; }
+  .icon { width: 80px; height: 80px; background: linear-gradient(135deg, #7c3aed, #a78bfa); border-radius: 20px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 24px; box-shadow: 0 8px 32px rgba(124,58,237,0.4); }
+  h1 { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.03em; color: #fff; margin-bottom: 12px; }
+  .tagline { color: #9090b0; font-size: 1.1rem; max-width: 480px; margin: 0 auto 32px; line-height: 1.6; }
+  .badge { display: inline-block; background: rgba(124,58,237,0.15); color: #a78bfa; border: 1px solid rgba(124,58,237,0.3); border-radius: 99px; padding: 6px 16px; font-size: 0.85rem; font-weight: 500; }
+  .container { max-width: 760px; margin: 0 auto; padding: 56px 24px; }
+  .section { margin-bottom: 48px; }
+  h2 { font-size: 1.2rem; font-weight: 600; color: #fff; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #2a2a3a; }
+  .faq-item { background: #18181f; border: 1px solid #2a2a3a; border-radius: 12px; padding: 20px 24px; margin-bottom: 12px; }
+  .faq-item h3 { font-size: 0.95rem; font-weight: 600; color: #e0e0e8; margin-bottom: 8px; }
+  .faq-item p { font-size: 0.9rem; color: #9090b0; line-height: 1.6; }
+  .contact-card { background: linear-gradient(135deg, rgba(124,58,237,0.1), rgba(167,139,250,0.05)); border: 1px solid rgba(124,58,237,0.25); border-radius: 14px; padding: 32px; text-align: center; }
+  .contact-card p { color: #9090b0; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6; }
+  .btn { display: inline-block; background: linear-gradient(135deg, #7c3aed, #a78bfa); color: white; text-decoration: none; padding: 12px 28px; border-radius: 10px; font-weight: 600; font-size: 0.95rem; }
+  footer { text-align: center; padding: 32px 24px; border-top: 1px solid #2a2a3a; color: #606070; font-size: 0.85rem; }
+  footer a { color: #7c3aed; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="icon">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="white"><path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm-1 13H9V10h2v6zm4 0h-2v-4h2v4zm0-6h-2V8h2v2z"/></svg>
+  </div>
+  <h1>Sound Warden Support</h1>
+  <p class="tagline">Automatic audio routing for macOS. Your audio follows your apps, hands-free.</p>
+  <span class="badge">macOS 13.0+</span>
+</div>
+<div class="container">
+  <div class="section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><h3>How does Sound Warden route audio?</h3><p>Sound Warden watches which apps you open or switch to, then automatically changes your Mac's system audio output to the device you configured. No per-app audio capture - just clean, reliable system-wide switching.</p></div>
+    <div class="faq-item"><h3>Why isn't my audio switching?</h3><p>Make sure your target device is connected and saved in the Devices tab. Check that the automation is enabled (green toggle) and that "Automations on" is shown at the bottom of the sidebar. If the device is shown as disconnected, reconnect it and Sound Warden will retry automatically.</p></div>
+    <div class="faq-item"><h3>What happens when I switch between two apps that both have rules?</h3><p>Sound Warden follows your focus. Whichever rule-app is in the foreground gets its device. Switch to the other app and the output follows. Switching to an app with no rule leaves audio unchanged.</p></div>
+    <div class="faq-item"><h3>What happens when my target device is not connected?</h3><p>Sound Warden logs a warning and leaves your audio on the current device. When the device reconnects, it retries and switches automatically within a few seconds.</p></div>
+    <div class="faq-item"><h3>How do I restore my purchase on a new Mac?</h3><p>Open Sound Warden, go to Settings, then tap "Restore Purchase". Make sure you are signed into the same Apple ID used for the original purchase.</p></div>
+    <div class="faq-item"><h3>Is there a subscription?</h3><p>No. Sound Warden uses one-time purchases only. Plus ($4.99) and Pro ($9.99) are yours forever with no recurring charges.</p></div>
+    <div class="faq-item"><h3>Does Sound Warden record my audio or microphone?</h3><p>No. Sound Warden only changes which output device your Mac uses. It does not record, capture, or transmit any audio. No microphone access is requested or used.</p></div>
+  </div>
+  <div class="section">
+    <h2>Contact Support</h2>
+    <div class="contact-card">
+      <p>Can't find the answer above? Send an email and we'll get back to you within 24 hours.</p>
+      <a class="btn" href="mailto:sushanth.reddy.21042004@gmail.com">Email Support</a>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>Sound Warden &copy; 2026 &nbsp;&middot;&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
